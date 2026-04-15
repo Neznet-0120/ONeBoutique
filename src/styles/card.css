@@ -1,0 +1,87 @@
+.product-card {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+  text-align: left;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.product-card__image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Делаем картинку всегда квадратной */
+  overflow: hidden;
+  background: #f9f9f9;
+}
+
+.product-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Картинка заполняет область, не искажаясь */
+}
+
+.product-card__badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(128, 0, 32, 0.9); /* Твой бордовый с прозрачностью */
+  color: white;
+  padding: 4px 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.product-card__info {
+  padding: 20px;
+}
+
+.product-card__title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 500;
+}
+
+.product-card__price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.product-card__button {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #800020;
+  color: #800020;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.product-card__button:hover {
+  background: #800020;
+  color: #fff;
+}
+
+.product-card__description {
+  font-size: 13px;
+  color: #666; /* Мягкий серый цвет */
+  line-height: 1.4;
+  margin-bottom: 15px;
+  /* Ограничиваем описание двумя строками, чтобы карточки были одной высоты */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
