@@ -28,7 +28,7 @@ const Footer = () => {
 
         <div className="footer__bottom">
           <p>&copy; {new Date().getFullYear()} ONeBoutique. Все права защищены.</p>
-          <p>Разработала: <div className='wifeesname'>Омина Сафарова</div></p>
+          <p>Разработала: <div className='dev-name'>Омина Сафарова</div></p>
         </div>
       </div>
     </footer>
