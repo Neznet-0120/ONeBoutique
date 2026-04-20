@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="clothes-shop-architecture" name="Project Flow">
-        <mxGraphModel dx="649" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+        <mxGraphModel dx="818" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -52,94 +52,94 @@
                 <mxCell id="stateFlow" value="15. State updates in App&#xa;onAdd: setCart([...cart, p])&#xa;onRemove: filter by id&#xa;onCartClick/onClose: toggle isCartOpen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="850" y="670" width="470" height="95" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_pkg" value="1) Здесь подключаются библиотеки и команды запуска. Это техническая база проекта." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_pkg" value="1) Здесь подключаются библиотеки и команды запуска. Это техническая база проекта." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="40" y="205" width="260" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_html" value="2) HTML-шаблон содержит root-контейнер, в который React вставляет интерфейс." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_html" value="2) HTML-шаблон содержит root-контейнер, в который React вставляет интерфейс." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="330" y="180" width="250" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_index" value="3) Точка входа JavaScript: создается root и рендерится главный компонент App." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_index" value="3) Точка входа JavaScript: создается root и рендерится главный компонент App." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="590" y="200" width="290" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_app" value="4) Главный центр управления: хранит состояния корзины и распределяет данные между компонентами." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_app" value="4) Главный центр управления: хранит состояния корзины и распределяет данные между компонентами." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="910" y="15" width="330" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_router" value="5) Роутер переключает контент без перезагрузки страницы (SPA-подход)." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_router" value="5) Роутер переключает контент без перезагрузки страницы (SPA-подход)." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="1060" y="245" width="250" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_home" value="6) Главная страница знакомит с брендом и ведет пользователя в каталог." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_home" value="6) Главная страница знакомит с брендом и ведет пользователя в каталог." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="710" y="445" width="290" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_catalog" value="7) На странице каталога массив товаров проходит через map и превращается в карточки." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_catalog" value="7) На странице каталога массив товаров проходит через map и превращается в карточки." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="1025" y="445" width="310" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_data" value="8) Это локальный источник данных: id, название, цена, категория, изображение и описание." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_data" value="8) Это локальный источник данных: id, название, цена, категория, изображение и описание." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="1320" y="280" width="300" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_header" value="9) Header всегда сверху: навигация + счетчик корзины + обработчик открытия корзины." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_header" value="9) Header всегда сверху: навигация + счетчик корзины + обработчик открытия корзины." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="650" y="630" width="320" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_card" value="10) Карточка отображает товар и отправляет его в состояние корзины при нажатии кнопки." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_card" value="10) Карточка отображает товар и отправляет его в состояние корзины при нажатии кнопки." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="960" y="630" width="320" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_cart" value="11) Модальное окно корзины: показывает выбранные товары, сумму и удаление по id." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="1260" y="650" width="330" height="60" as="geometry"/>
+                <mxCell id="c_cart" value="11) Модальное окно корзины: показывает выбранные товары, сумму и удаление по id." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1255" y="670" width="330" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_footer" value="12) Footer завершает страницу: контакты, бренд и служебная информация." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_footer" value="12) Footer завершает страницу: контакты, бренд и служебная информация." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="1510" y="635" width="260" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_styles" value="13) Стили разделены по файлам компонентов, чтобы поддерживать проект было проще." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_styles" value="13) Стили разделены по файлам компонентов, чтобы поддерживать проект было проще." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="30" y="630" width="320" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_userFlow" value="14) Это пользовательский путь: от входа на сайт до добавления товаров и работы с корзиной." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_userFlow" value="14) Это пользовательский путь: от входа на сайт до добавления товаров и работы с корзиной." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="350" y="765" width="430" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="c_stateFlow" value="15) Все изменения интерфейса появляются после обновления состояния в App (реактивная модель)." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+                <mxCell id="c_stateFlow" value="15) Все изменения интерфейса появляются после обновления состояния в App (реактивная модель)." style="shape=callout;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=11;" parent="1" vertex="1">
                     <mxGeometry x="850" y="775" width="470" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_pkg" value="1" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1" source="c_pkg" target="pkg">
+                <mxCell id="ce_pkg" value="1" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" source="c_pkg" target="pkg" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_html" value="2" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#d6b656;strokeWidth=2;" edge="1" parent="1" source="c_html" target="html">
+                <mxCell id="ce_html" value="2" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#d6b656;strokeWidth=2;" parent="1" source="c_html" target="html" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_index" value="3" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="c_index" target="index">
+                <mxCell id="ce_index" value="3" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#82b366;strokeWidth=2;" parent="1" source="c_index" target="index" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_app" value="4" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="c_app" target="app">
+                <mxCell id="ce_app" value="4" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#b85450;strokeWidth=2;" parent="1" source="c_app" target="app" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_router" value="5" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#9673a6;strokeWidth=2;" edge="1" parent="1" source="c_router" target="router">
+                <mxCell id="ce_router" value="5" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#9673a6;strokeWidth=2;" parent="1" source="c_router" target="router" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_home" value="6" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#d6b656;strokeWidth=2;" edge="1" parent="1" source="c_home" target="home">
+                <mxCell id="ce_home" value="6" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#d6b656;strokeWidth=2;" parent="1" source="c_home" target="home" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_catalog" value="7" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#d6b656;strokeWidth=2;" edge="1" parent="1" source="c_catalog" target="catalog">
+                <mxCell id="ce_catalog" value="7" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#d6b656;strokeWidth=2;" parent="1" source="c_catalog" target="catalog" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_data" value="8" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="c_data" target="data">
+                <mxCell id="ce_data" value="8" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#82b366;strokeWidth=2;" parent="1" source="c_data" target="data" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_header" value="9" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="c_header" target="header">
+                <mxCell id="ce_header" value="9" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" parent="1" source="c_header" target="header" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_card" value="10" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="c_card" target="card">
+                <mxCell id="ce_card" value="10" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" parent="1" source="c_card" target="card" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_cart" value="11" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="c_cart" target="cartModal">
+                <mxCell id="ce_cart" value="11" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" parent="1" source="c_cart" target="cartModal" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_footer" value="12" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="c_footer" target="footer">
+                <mxCell id="ce_footer" value="12" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;" parent="1" source="c_footer" target="footer" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_styles" value="13" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#999999;strokeWidth=2;" edge="1" parent="1" source="c_styles" target="styles">
+                <mxCell id="ce_styles" value="13" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#999999;strokeWidth=2;" parent="1" source="c_styles" target="styles" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_userFlow" value="14" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="c_userFlow" target="userFlow">
+                <mxCell id="ce_userFlow" value="14" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#d79b00;strokeWidth=2;" parent="1" source="c_userFlow" target="userFlow" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ce_stateFlow" value="15" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="c_stateFlow" target="stateFlow">
+                <mxCell id="ce_stateFlow" value="15" style="dashed=0;endArrow=block;endFill=1;html=1;rounded=0;strokeColor=#b85450;strokeWidth=2;" parent="1" source="c_stateFlow" target="stateFlow" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="e1" value="" style="endArrow=block;html=1;rounded=0;" parent="1" source="pkg" target="index" edge="1">
